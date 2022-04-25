@@ -2,7 +2,7 @@ private static double volume(String solidom, double alturam, double areaBasem, d
 double vol;
 
     if (solidom.equalsIgnoreCase("esfera"){
-        vol=(4.0/3)*Math.pi*Math.pow(raiom,3);
+        vol=(4.0/3)*Math.pi*Math.pow(raiom,3)
     }
     else {
         if (solidom.equalsIgnoreCase("cilindro") {
